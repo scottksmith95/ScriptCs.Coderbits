@@ -13,17 +13,7 @@ namespace ScriptCs.Coderbits
 
         public CoderbitsModel GetProfile(string username)
         {
-            //Create WebClient for making request for profile
-            var client = new WebClient();
-
-            //Get profile response as a JSON string
-            var jsonString = client.DownloadString(GetProfilePath(username));
-
-            //Convert to JSON string to Coderbits model
-            var coderbitsModel = JsonConvert.DeserializeObject<CoderbitsModel>(jsonString);
-
-            //Return the model
-            return coderbitsModel;
+            return GetProfileAsync(username).Result;
         }
 
         public async Task<CoderbitsModel> GetProfileAsync(string username)
@@ -36,8 +26,6 @@ namespace ScriptCs.Coderbits
 
             //Await
             var jsonString = await jsonStringTask;
-
-            System.Threading.Thread.Sleep(10000);
 
             //Convert to JSON string to Coderbits model
             var coderbitsModelTask = JsonConvert.DeserializeObjectAsync<CoderbitsModel>(jsonString);
