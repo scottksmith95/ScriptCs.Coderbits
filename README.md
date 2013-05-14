@@ -1,7 +1,7 @@
 ScriptCs.Coderbits
 ==================
 
-ScriptCS script pack for querying the coderbits profile API
+[ScriptCS](https://github.com/scriptcs/scriptcs) script pack for querying the coderbits profile API
 
 ## Installation
 
