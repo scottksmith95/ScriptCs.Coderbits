@@ -32,6 +32,14 @@ This will install `ScriptCs.Coderbits` and the necessary dependencies and copy t
 
     var coderbitsModel = coderbits.GetProfile("scott");
 
+### Retrieve a profile async
+
+    var coderbitsModelTask = coderbits.GetProfileAsync("scott");
+
+    //Do work
+
+    var coderbitsModel = coderbitsModelTask.Result;
+
 ### Access profile members
 
     Console.WriteLine(coderbitsModel.name);
