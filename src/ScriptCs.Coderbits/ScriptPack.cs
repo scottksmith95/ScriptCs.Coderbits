@@ -1,5 +1,4 @@
-﻿using System;
-using ScriptCs;
+﻿using ScriptCs;
 using ScriptCs.Contracts;
 
 namespace ScriptCs.Coderbits

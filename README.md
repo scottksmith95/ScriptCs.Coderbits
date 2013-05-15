@@ -44,7 +44,7 @@ This will install `ScriptCs.Coderbits` and the necessary dependencies and copy t
 
     Console.WriteLine(coderbitsModel.name);
 
-You can see all possible fields available in the profile model [here](https://github.com/scottksmith95/ScriptCs.Coderbits/blob/master/src/ScriptCs.Coderbits/CoderbitsModel.cs).
+You can see all possible fields available in the profile model [here](https://github.com/scottksmith95/CSharp.Coderbits/blob/master/src/CSharp.Coderbits/ApiModel.cs).
 
 ## Resources
 
