@@ -46,6 +46,15 @@ This will install `ScriptCs.Coderbits` and the necessary dependencies and copy t
 
 You can see all possible fields available in the profile model [here](https://github.com/scottksmith95/ScriptCs.Coderbits/blob/master/src/ScriptCs.Coderbits/CoderbitsModel.cs).
 
+## Resources
+
+- API documentation can be found here: https://coderbits.com/api
+- NuGet package can be found here: https://nuget.org/packages/ScriptCs.Coderbits
+
+## NuGet Dependency Status
+
+[![NuGet Status](http://nugetstatus.com/ScriptCs.Coderbits.png)](http://nugetstatus.com/packages/ScriptCs.Coderbits)
+
 ##License
 
 The MIT License (MIT)
